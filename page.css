@@ -365,6 +365,9 @@ a {
   margin-top: 0px;
   width: 100%; }
 
+#dotted {
+  color: #21b681; }
+
 .fleft {
   float: left;
   text-align: center; }
