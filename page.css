@@ -1,426 +1,142 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans&subset=cyrillic,cyrillic-ext,latin-ext");
 @import url(http://allfont.ru/allfont.css?fonts=bodoni);
-@font-face {
-  font-family: "PFCentroSlabPro";
-  src: url("fonts/PFCentroSlabPro-Bold.otf"); }
-* {
-  margin: 0;
-  padding: 0; }
-
-a {
-  text-decoration: none;
-  color: white;
-  font-family: "Bodoni", arial; }
-
-body {
-  min-width: 1200px; }
-
-.btn-pln {
-  background-color: white;
-  position: relative;
-  width: 130px;
-  height: 130px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 130px; }
-
-.btn-pln:hover {
-  cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); }
-
-.btn-inner {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border-color: #21b681;
-  border-style: dotted;
-  border-width: 1; }
-
-.btn-pln > span {
-  width: 130px;
-  text-align: center;
-  color: #21b681;
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 12px;
-  font-weight: bold; }
-
-#line-with-grad {
-  top: 173px;
-  position: absolute;
-  width: 100%;
-  height: 390px;
-  background-color: rgba(20, 20, 20, 0.5); }
-
-#header {
-  margin: 0;
-  width: 100%;
-  height: 83px;
-  background-color: #4a403f;
-  color: #ffffff; }
-
-#logo-wrapper {
-  height: 83px;
-  position: relative;
-  width: 300px;
-  text-align: center;
-  margin: auto; }
-
-#logo {
-  position: absolute;
-  bottom: 5px; }
-
-a {
-  text-color: red; }
-
-#llogo {
-  width: 300px;
-  text-align: center;
-  position: static; }
-
-#logo > h1 {
-  font-family: "PT Mono", monospace; }
-
-#block-1-wrapper {
-  width: 100%;
-  height: 1350px;
-  background-color: #21b681;
-  background-image: url(img/picture-one.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-#block-1-container {
-  position: relative;
-  width: 1000px;
-  height: 1350px;
-  margin: 0 auto; }
-
-#text1 {
-  padding-top: 40px;
-  width: 100%;
-  height: 350px;
-  position: absolute;
-  top: 90px;
-  text-align: center;
-  font-size: 60pt;
-  color: white;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold; }
-
-#logo-pic {
-  height: 100px; }
-
-#text2 {
-  padding: 20px 90px;
-  position: absolute;
-  width: 820px;
-  top: 550px;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  background-color: #ffffff;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.55); }
-
-.p-bold {
-  font-weight: bold; }
-
-#text3 {
-  position: absolute;
-  top: 1050px;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-#round-one {
-  position: absolute;
-  top: 900px;
-  left: 450px;
-  border-radius: 520px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
-
-#arrow-one {
-  position: absolute;
-  top: 904px;
-  left: 50px; }
-
-#block-2-wrapper {
-  width: 100%;
-  height: 150vw;
-  background-color: #21b681;
-  background-image: url(img/picture-two.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-#block-2-container {
-  position: relative;
-  width: 1000px;
-  height: 150vw;
-  margin: 0 auto; }
-
-#text4 {
-  position: absolute;
-  padding: 20px 90px;
-  top: 89vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  background-color: #ffffff;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.55); }
-
-#text4 > p {
-  margin-bottom: 10px; }
-
-#text5 {
-  position: absolute;
-  top: 113vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-#round-two {
-  position: absolute;
-  top: 113vw;
-  left: 450px;
-  border-radius: 520px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
-
-#arrow-two {
-  position: absolute;
-  top: 116vw;
-  left: 50px; }
-
-#btn-one {
-  top: 75vw;
-  left: 130px; }
-
-#block-3-wrapper {
-  width: 100%;
-  height: 140vw;
-  background-color: #21b681;
-  background-image: url(img/picture-third.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-#block-3-container {
-  position: relative;
-  width: 1000px;
-  height: 140vw;
-  margin: 0 auto; }
-
-#text6 {
-  position: absolute;
-  padding: 20px 90px;
-  width: 820px;
-  top: 89vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  background-color: #ffffff;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.55); }
-
-#text6 > p {
-  margin-bottom: 10px; }
-
-#text7 {
-  position: absolute;
-  top: 105vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-#round-third {
-  position: absolute;
-  top: 110vw;
-  left: 450px;
-  border-radius: 520px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
-
-#arrow-third {
-  position: absolute;
-  top: 115vw;
-  left: 50px; }
-
-#btn-two {
-  top: 70vw;
-  left: 720px; }
-
-#block-4-wrapper {
-  width: 100%;
-  height: 130vw;
-  background-color: #21b681;
-  background-image: url(img/picture-fouth.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-#block-4-container {
-  position: relative;
-  width: 1000px;
-  height: 130vw;
-  margin: 0 auto; }
-
-#text8 {
-  position: absolute;
-  padding: 20px 90px;
-  width: 820px;
-  top: 84vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  background-color: #ffffff;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.55); }
-
-#text8 > p {
-  margin-bottom: 10px; }
-
-#text9 {
-  position: absolute;
-  top: 105vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-#round-fouth {
-  position: absolute;
-  top: 105vw;
-  left: 450px;
-  border-radius: 520px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
-
-#arrow-fouth {
-  position: absolute;
-  top: 110vw;
-  left: 50px; }
-
-#btn-thrid {
-  top: 65vw;
-  left: 780px; }
-
-#block-5-wrapper {
-  width: 100%;
-  height: 40vw;
-  background-color: #21b681;
-  background-image: url(img/picture-fifth.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-#block-5-container {
-  position: relative;
-  width: 1000px;
-  height: 40vw;
-  margin: 0 auto; }
-
-#text10 {
-  position: absolute;
-  padding: 20px 90px;
-  width: 820px;
-  top: 15vw;
-  font-size: 20pt;
-  font-family: "PT Sans", sans-serif;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.55); }
-
-#block-6-wrapper {
-  width: 100%;
-  height: 20vw;
-  background-color: #21b681;
-  margin: 0 auto; }
-
-#share {
-  width: 100%; }
-
-#icons {
-  color: white;
-  font-family: "PFCentroSlabPro";
-  width: 130px;
-  margin: auto;
-  text-align: center; }
-
-#icons > p {
-  padding-bottom: 20px; }
-
-.sicon:hover {
-  cursor: pointer;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
-
-#chb2-logo {
-  margin-top: 25px;
-  height: 60px; }
-
-#t-logo2 {
-  height: 80px; }
-
-#advert {
-  margin-top: 65px;
-  display: block;
-  font-family: "PFCentroSlabPro";
-  font-size: 12px;
-  width: 100%;
-  color: white;
-  display: block;
-  text-align: center; }
-
-#logos {
-  margin-top: 0px;
-  width: 100%; }
-
-#dotted {
-  color: #21b681; }
-
-.fleft {
-  float: left;
-  text-align: center; }
-
-.w275 {
-  width: 23%; }
-
-.w15 {
-  width: 18%;
-  height: 70px;
-  margin: 0 auto;
-  padding-top: 20px; }
-
-.plan {
-  opacity: 0;
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(20, 20, 20, 0.6);
-  transition: opacity 0.3s, visibility 0s linear 0.4s; }
-
-.visible {
-  visibility: visible;
-  opacity: 1; }
-
-.cont {
-  position: static;
-  width: 700px;
-  margin: 0 auto;
-  padding-top: 17vh; }
-
-.rel {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-
-.close {
-  color: #21b681;
-  font-size: 24px;
-  position: absolute;
-  top: 30px;
-  left: 30px; }
-
-.plan-png {
-  width: 700px; }
+@font-face { font-family: "PFCentroSlabPro"; src: url("fonts/PFCentroSlabPro-Bold.otf"); }
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; color: white; font-family: "Bodoni", arial; }
+
+body { min-width: 1200px; }
+
+.btn-pln { background-color: white; position: relative; width: 130px; height: 130px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); border-radius: 130px; }
+
+.btn-pln:hover { cursor: pointer; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); }
+
+.btn-inner { position: absolute; top: 12px; left: 12px; width: 100px; height: 100px; border-radius: 100px; border-color: #21b681; border-style: dotted; border-width: 1; }
+
+.btn-pln > span { width: 130px; text-align: center; color: #21b681; position: absolute; top: 50px; left: 0px; font-family: "PT Sans", sans-serif; font-size: 12px; font-weight: bold; }
+
+#line-with-grad { top: 173px; position: absolute; width: 100%; height: 390px; background-color: rgba(20, 20, 20, 0.5); }
+
+#header { margin: 0; width: 100%; height: 83px; background-color: #4a403f; color: #ffffff; }
+
+#logo-wrapper { height: 83px; position: relative; width: 300px; text-align: center; margin: auto; }
+
+#logo { position: absolute; bottom: 5px; }
+
+a { text-color: red; }
+
+#llogo { width: 300px; text-align: center; position: static; }
+
+#logo > h1 { font-family: "PT Mono", monospace; }
+
+#block-1-wrapper { width: 100%; height: 1350px; background-color: #21b681; background-image: url(img/picture-one.png); background-repeat: no-repeat; background-size: 100%; }
+
+#block-1-container { position: relative; width: 1000px; height: 1350px; margin: 0 auto; }
+
+#text1 { padding-top: 40px; width: 100%; height: 350px; position: absolute; top: 90px; text-align: center; font-size: 60pt; color: white; font-family: "PT Sans", sans-serif; font-weight: bold; }
+
+#logo-pic { height: 100px; }
+
+#text2 { padding: 20px 90px; position: absolute; width: 820px; top: 550px; font-size: 20pt; font-family: "PT Sans", sans-serif; background-color: #ffffff; border-radius: 5px; color: rgba(0, 0, 0, 0.55); }
+
+.p-bold { font-weight: bold; }
+
+#text3 { position: absolute; top: 1050px; font-size: 20pt; font-family: "PT Sans", sans-serif; color: #ffffff; text-transform: uppercase; }
+
+#round-one { position: absolute; top: 900px; left: 450px; border-radius: 520px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+
+#arrow-one { position: absolute; top: 904px; left: 50px; }
+
+#block-2-wrapper { width: 100%; height: 150vw; background-color: #21b681; background-image: url(img/picture-two.png); background-repeat: no-repeat; background-size: 100%; }
+
+#block-2-container { position: relative; width: 1000px; height: 150vw; margin: 0 auto; }
+
+#text4 { position: absolute; padding: 20px 90px; top: 89vw; font-size: 20pt; font-family: "PT Sans", sans-serif; background-color: #ffffff; border-radius: 5px; color: rgba(0, 0, 0, 0.55); }
+
+#text4 > p { margin-bottom: 10px; }
+
+#text5 { position: absolute; top: 113vw; font-size: 20pt; font-family: "PT Sans", sans-serif; color: #ffffff; text-transform: uppercase; }
+
+#round-two { position: absolute; top: 113vw; left: 450px; border-radius: 520px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+
+#arrow-two { position: absolute; top: 116vw; left: 50px; }
+
+#btn-one { top: 75vw; left: 130px; }
+
+#block-3-wrapper { width: 100%; height: 140vw; background-color: #21b681; background-image: url(img/picture-third.png); background-repeat: no-repeat; background-size: 100%; }
+
+#block-3-container { position: relative; width: 1000px; height: 140vw; margin: 0 auto; }
+
+#text6 { position: absolute; padding: 20px 90px; width: 820px; top: 89vw; font-size: 20pt; font-family: "PT Sans", sans-serif; background-color: #ffffff; border-radius: 5px; color: rgba(0, 0, 0, 0.55); }
+
+#text6 > p { margin-bottom: 10px; }
+
+#text7 { position: absolute; top: 105vw; font-size: 20pt; font-family: "PT Sans", sans-serif; color: #ffffff; text-transform: uppercase; }
+
+#round-third { position: absolute; top: 110vw; left: 450px; border-radius: 520px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+
+#arrow-third { position: absolute; top: 115vw; left: 50px; }
+
+#btn-two { top: 70vw; left: 720px; }
+
+#block-4-wrapper { width: 100%; height: 130vw; background-color: #21b681; background-image: url(img/picture-fouth.png); background-repeat: no-repeat; background-size: 100%; }
+
+#block-4-container { position: relative; width: 1000px; height: 130vw; margin: 0 auto; }
+
+#text8 { position: absolute; padding: 20px 90px; width: 820px; top: 84vw; font-size: 20pt; font-family: "PT Sans", sans-serif; background-color: #ffffff; border-radius: 5px; color: rgba(0, 0, 0, 0.55); }
+
+#text8 > p { margin-bottom: 10px; }
+
+#text9 { position: absolute; top: 105vw; font-size: 20pt; font-family: "PT Sans", sans-serif; color: #ffffff; text-transform: uppercase; }
+
+#round-fouth { position: absolute; top: 105vw; left: 450px; border-radius: 520px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+
+#arrow-fouth { position: absolute; top: 110vw; left: 50px; }
+
+#btn-thrid { top: 65vw; left: 780px; }
+
+#block-5-wrapper { width: 100%; height: 40vw; background-color: #21b681; background-image: url(img/picture-fifth.png); background-repeat: no-repeat; background-size: 100%; }
+
+#block-5-container { position: relative; width: 1000px; height: 40vw; margin: 0 auto; }
+
+#text10 { position: absolute; padding: 20px 90px; width: 820px; top: 15vw; font-size: 20pt; font-family: "PT Sans", sans-serif; border-radius: 5px; color: rgba(0, 0, 0, 0.55); }
+
+#block-6-wrapper { width: 100%; height: 20vw; background-color: #21b681; margin: 0 auto; }
+
+#share { width: 100%; }
+
+#icons { color: white; font-family: "PFCentroSlabPro"; width: 130px; margin: auto; text-align: center; }
+
+#icons > p { padding-bottom: 20px; }
+
+.sicon:hover { cursor: pointer; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+
+#chb2-logo { margin-top: 25px; height: 60px; }
+
+#t-logo2 { height: 80px; }
+
+#advert { margin-top: 65px; display: block; font-family: "PFCentroSlabPro"; font-size: 12px; width: 100%; color: white; display: block; text-align: center; }
+
+#logos { margin-top: 0px; width: 100%; }
+
+#dotted { color: #21b681; }
+
+.fleft { float: left; text-align: center; }
+
+.w275 { width: 23%; }
+
+.w15 { width: 18%; height: 70px; margin: 0 auto; padding-top: 20px; }
+
+.plan { opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(20, 20, 20, 0.6); transition: opacity 0.3s, visibility 0s linear 0.4s; }
+
+.visible { visibility: visible; opacity: 1; }
+
+.cont { position: static; width: 700px; margin: 0 auto; padding-top: 17vh; }
+
+.rel { width: 100%; height: 100%; position: relative; }
+
+.close { color: #21b681; font-size: 24px; position: absolute; top: 30px; left: 30px; }
+
+.plan-png { width: 700px; }
 
 /*# sourceMappingURL=page.css.map */
