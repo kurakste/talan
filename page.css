@@ -6,6 +6,10 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
 body {
   min-width: 1200px; }
 
@@ -60,6 +64,9 @@ body {
 #logo {
   position: absolute;
   bottom: 5px; }
+
+#lloogo > a {
+  text-color: #ffffff; }
 
 #llogo {
   width: 300px;
@@ -314,7 +321,7 @@ body {
 
 #block-6-wrapper {
   width: 100%;
-  height: 17vw;
+  height: 20vw;
   background-color: #21b681;
   margin: 0 auto; }
 
@@ -336,12 +343,14 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
 #chb2-logo {
-  height: 40px; }
-
-#t-logo2 {
+  margin-top: 25px;
   height: 60px; }
 
+#t-logo2 {
+  height: 80px; }
+
 #advert {
+  margin-top: 65px;
   display: block;
   font-family: "PFCentroSlabPro";
   font-size: 12px;
@@ -351,7 +360,7 @@ body {
   text-align: center; }
 
 #logos {
-  margin-top: 40px;
+  margin-top: 0px;
   width: 100%; }
 
 .fleft {
